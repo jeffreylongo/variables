@@ -55,8 +55,23 @@ namespace variables
                 Console.ReadLine();
             }
             Console.ReadLine();
-         
-   
-        }
+
+            /*
+            Console.WriteLine("How much do you want to donate to charity");
+            string rawInput = Console.ReadLine();
+            Decimal value = 0;
+            bool wasFormatedCorrectly = Decimal.TryParse(rawInput, out value);
+            if (wasFormatedCorrectly)
+            {
+                Console.WriteLine($"you are actually donating {value:C}");
+            }
+            else
+            {
+                Console.WriteLine("Sorry, that was a bad format.");
+            }
+            Console.ReadLine();*/
+
+
+        }   
     }
 }
