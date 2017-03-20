@@ -1,0 +1,6 @@
+C:\Users\jefflongo\tiy\week-2\variables\variables\bin\Debug\variables.exe.config
+C:\Users\jefflongo\tiy\week-2\variables\variables\bin\Debug\variables.exe
+C:\Users\jefflongo\tiy\week-2\variables\variables\bin\Debug\variables.pdb
+C:\Users\jefflongo\tiy\week-2\variables\variables\obj\Debug\variables.csprojResolveAssemblyReference.cache
+C:\Users\jefflongo\tiy\week-2\variables\variables\obj\Debug\variables.exe
+C:\Users\jefflongo\tiy\week-2\variables\variables\obj\Debug\variables.pdb
