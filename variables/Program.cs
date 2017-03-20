@@ -27,7 +27,7 @@ namespace variables
             Console.WriteLine("It is {0} that I have dogs at home.", dog);
             Console.ReadLine();
 
-            Console.WriteLine("Today is " + DateTime.Now);
+            Console.WriteLine("Today is " + dateWithFormat);
             Console.ReadLine();
 
             Console.WriteLine("I spent " + dec + " on a cheeseburger.");
@@ -35,6 +35,28 @@ namespace variables
 
             Console.WriteLine(x + " marks the spot");
             Console.ReadLine();
+
+            Console.WriteLine("Please enter a number of your choosing.");
+            int num = int.Parse(Console.ReadLine());
+            Console.WriteLine(num);
+            Console.ReadLine();
+
+            Console.WriteLine("Please enter another number of your choosing.");
+            string num2 = Console.ReadLine();
+            int ans = 0;
+            bool num2ent = int.TryParse(num2, out ans);
+            if (num2ent)
+            {
+                Console.WriteLine($"Your number is " + num2);
+            }
+            else
+            {
+                Console.WriteLine("Sorry, I said put in a number.");
+                Console.ReadLine();
+            }
+            Console.ReadLine();
+         
+   
         }
     }
 }
